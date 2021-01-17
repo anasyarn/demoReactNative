@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "PickEat",
+    "slug": "pickeat",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.pickgo.eat",
+      "supportsTablet": true,
+      "buildNumber": "14",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to scan QR code to make payments."
+      }
+    },
+    "android": {
+      "package": "com.pickgo.eat.pickeat",
+      "versionCode": 14,
+      "icon": "./assets/icon.png",
+      "permissions": [
+        "CAMERA",
+        "READ_INTERNAL_STORAGE"
+      ]
+    },
+    "version": "1.13",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "description": ""
+  }
+}
